@@ -1,0 +1,489 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="https://fonts.cdnfonts.com/css/chalkduster" rel="stylesheet">
+<style>
+    @import url('https://fonts.cdnfonts.com/css/chalkduster');
+</style>
+<!-- <script src="./sm/assets/teaser-data.js"></script> -->
+
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Face Identification (Group ID: 10)</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="description"
+        content="Project page for &#39;Face Identification (Group ID: 10).&#39;">
+    <!-- <link rel="icon" href="./pics/wis_logo.jpg"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Face Identification (Group ID: 10)</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="description"
+        content="Project page for &#39;Face Identification (Group ID: 10).&#39;">
+
+
+      <meta charset="utf-8">
+      <meta name="description" content="Face Identification (Group ID: 10)">
+       <meta name="keywords" content="sketch+text-based image retrieval, cross-modal retrieval, image retrieval, SBIR, CSTBIR;">
+      <meta name="author" content="Dishit Sharma">
+      <title>[Pattern Recognition and Machine Learning] Face Identification (Group ID: 10)</title>
+
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="[Pattern Recognition and Machine Learning] Face Identification (Group ID: 10)" />
+      <meta name="twitter:description" content="[Pattern Recognition and Machine Learning] Face Identification (Group ID: 10)" />
+      <!-- <meta name="twitter:image:alt" content="CSTBIR (Pattern Recognition and Machine Learning)" /> -->
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <p class="title">Face Identification <br><div class="titlegroupname" font-size=10px>by Group 10</div class="titlegroupname"></p>
+    <div style="text-align: center; font-size: 15pt; margin-bottom: 15px">
+            <span>Pattern Recognition and Machine Learning</span>
+    </div>
+    <p class="author">
+        <span class="author"><a href="https://www.linkedin.com/in/varshit-manikanta-079b65255/">Singamsetti Manikanta Varshit</a>&nbsp;</span>
+        <span class="author"><a href="https://www.linkedin.com/in/a-k-r-deshpande-078bab252/">Atharva Kanad Deshpande</a>&nbsp;</span>
+        <span class="author"><a href="https://www.linkedin.com/in/dishit-sharma-44b7a5265/">Dishit Sharma</a>&nbsp;</span>
+        <span class="author"><a href="https://www.linkedin.com/in/vishesh-sachdeva-89689a256/">Vishesh Sachdeva</a>&nbsp;</span>
+        <span class="author"><a href="https://www.linkedin.com/in/jinang-shah-0ba968255/">Jinang Nayeneshbhai Shah</a>&nbsp;</span>
+        <span class="author"><a href="https://www.linkedin.com/in/harish-gehlot-9a8973255/">Harish</a>&nbsp;</span>
+        <span class="author"><a href="https://www.linkedin.com/in/kumar-ashish-aditya-4858a0258/">Kumar Ashish Aditya</a>&nbsp;</span>
+    </p>
+    <table border="0" align="center" class="affiliations" width="700px">
+        <tbody align="center">
+            <tc>
+                <td style="text-align: center;">
+                    <!-- <sup>1</sup> -->
+                    &nbsp;IIT Jodhpur</td>
+            </tc> 
+            <!-- <tc>
+                <td style="text-align: center;"><sup>2</sup>&nbsp;Microsoft</td>
+            </tc> -->
+        </tbody>
+    </table>
+
+    <table width="999" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+        <tbody>
+            <tr>
+                <td align="center"><a href="./resources/report.pdf">Report</a> | 
+                    <a href="https://github.com/legend4137/PRML_Project-Face_Recognition">Code</a> | 
+                    <a href="https://www.kaggle.com/datasets/jessicali9530/lfw-dataset/data">Dataset</a> | 
+                    <a href="./resources/PRMLppt.pdf">PPT</a> |
+                    <!-- <a href="./resources/CSTBIR-AAAI24Poster.pdf">Poster</a> |  -->
+                    <!-- <a href="./resources/CSTBIR-AAAI24Slides.pdf">Slides</a> |  -->
+                    <a href="https://youtu.be/tu2q060WjXY">Short Talk</a> </td>
+            </tr> 
+        </tbody>
+    </table>
+    <div>
+        <br>
+    </div>
+    <div class="container">
+        <table width="1000" border="0" align="center">
+            <tbody>
+                <tr>
+                    <div id="imageCarousel" class="carousel slide teaser-carousel" data-ride="carousel" data-interval="5000">
+                        <div class="carousel-inner">
+                            <!-- White horse -->
+                            <div class="carousel-item active">
+                                <div>
+                                    <img class="teaser-img" src="./resources/example_topfaces.png" />
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div>
+                                    <img class="teaser-img" src="./resources/example_eigenfaces.png" />
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div>
+                                    <img class="teaser-img" src="./resources/example_lbp.png" />
+                                </div>
+                            </div>
+
+                            <!-- <div class="carousel-item">
+                                <div>
+                                    <img class="teaser-img" src="./resources/example_pennyfarthing.png" />
+                                </div>
+                            </div> -->
+
+                            <div class="carousel-item">
+                                <div>
+                                    <img class="teaser-img" src="./resources/example_hog.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+                            <div class="slider-navigation-previous">
+                                <svg viewBox="0 0 50 80" xml:space="preserve">
+                                    <polyline fill="white" stroke-width=".5em" stroke-linecap="round"
+                                        stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 ">
+                                    </polyline>
+                                </svg>
+                            </div>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+                            <div class="slider-navigation-next">
+                                <svg viewBox="0 0 50 80" xml:space="preserve">
+                                    <polyline fill="white" stroke-width=".5em" stroke-linecap="round"
+                                        stroke-linejoin="round" points="0.375,0.375 45.63,38.087 0.375,75.8 ">
+                                    </polyline>
+                                </svg>
+                            </div>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </tr>
+                <!-- <tr> <br /> </tr> -->
+                <tr align="center"></tr>
+            </tbody>
+            <div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </table>
+        <div style="text-align: justify;text-justify: inter-word;">
+        <p><span class="section"><b>Abstract</b></span> </p>
+        <p> Facial recognition technology has witnessed significant advancements in recent years, driven by the proliferation of deep learning techniques, improved computational power, and the availability of large-scale labeled datasets. This paper presents a comprehensive review of the different methods through which facial recognition can be achieved, covering feature extraction and classification algorithms.
+
+            In this project, the dataset chosen is the LFW dataset, upon which we have performed exploratory data analysis to have a complete understanding of the dataset. We have extensively worked upon feature extraction of the LFW dataset using methods such as Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), and Convolutional Neural Networks (CNN). The extracted features were fed into multiple classifiers such as Logistic Regression, Support Vector Machines (SVM), and Random Forest algorithm, and the accuracy was noted. The aim of this project is to find the best feature extraction method which leads to the best accuracy on multiple classification techniques, and eventually train a model that would accurately recognize the input face image.</p>
+        </div>
+        <div style="text-align: justify;text-justify: inter-word;">
+        <p><b>Keywords:</b> 
+            Facial recognition, feature extraction, classification, LFW dataset, PCA, LDA, CNN, Logistic Regression, SVM, Random Forest</p>
+        </div>
+        <p class="section">&nbsp;</p>
+
+        <p class="section"><b>Approaches Tried</b></p>
+        <div>
+            <!-- <img src="./resources/intro.png" alt="" width="700px" style="margin: auto" /> -->
+            <p>We tried the following approaches for feature reduction (dimensionality reduction):</p>
+  <ol>
+    <li>
+      <strong>Principal Component Analysis (PCA):</strong>
+      <p>Dimensionality reduction and machine learning method used to simplify a large dataset into a smaller set while still maintaining significant patterns and trends. The idea of PCA is simple: reduce the number of variables of a dataset while preserving as much information as possible.</p>
+    </li>
+    <li>
+      <strong>Linear Discriminant Analysis (LDA):</strong>
+      <p>Dimensionality reduction algorithm that projects data points into one dimension and clusters them by maximizing the between-cluster distances and minimizing the within-cluster distances.</p>
+    </li>
+  </ol>
+  <p>We tried the following approaches for feature extraction:</p>
+  <ol>
+    <li>
+      <strong>Convolutional Neural Network (CNN):</strong>
+      <p>Deep learning models designed for processing structured grid data like images. They employ convolutional layers to detect patterns hierarchically, pooling layers to reduce dimensionality, and fully connected layers for classification. CNNs excel in tasks like image recognition, object detection, and image segmentation.</p>
+    </li>
+    <li>
+      <strong>Local Binary Pattern (LBP):</strong>
+      <p>Texture descriptor for analyzing local patterns in images. It encodes the relationship between a pixel and its neighbors by comparing intensity values. LBP extracts texture features robust to illumination changes and is widely used in facial recognition, texture classification, and object detection tasks.</p>
+    </li>
+    <li>
+      <strong>Histogram of Gradients (HoG):</strong>
+      <p>Feature descriptor technique for object detection in images. It calculates gradients’ magnitude and orientation in small regions, then constructs a histogram of gradient orientations to represent local shape and appearance. HOG is commonly used in pedestrian detection, human pose estimation, and object recognition tasks.</p>
+    </li>
+  </ol>
+  <p>For classification, we used the following classifiers:</p>
+  <ol>
+    <li>Random Forest</li>
+    <li>Logistic Regression</li>
+    <li>Support Vector Machines (SVM)</li>
+    <li>Artificial Neural Network (ANN)</li>
+  </ol>
+        </div>
+        <p class="section">&nbsp;</p>
+
+        <p class="section"><b>Best Performing Models</b></p>
+        <div style="text-align: center">
+            <img src="./resources/accuracy.png" alt="" width="500px" style="margin: auto" /><br>
+            <div style="text-align: left">
+                <ul>
+                  <li>We experimented with LDA, PCA, CNN, LBP, HoG, and classifiers such as ANN, Random Forest, SVM, Logistic Regression.</li>
+                  <li>The results indicate that CNN paired with any classifier provides consistently accurate performance.</li>
+                  <li>The highest accuracy achieved is 89.52% with CNN + Logistic Regression combination.</li>
+                  <li>Other methods like HoG also yield promising results, demonstrating the effectiveness of various techniques in facial recognition.</li>
+                  <li>We observed that combining feature extraction and reduction techniques before classification (e.g., HoG + PCA + SVM(RBF)) leads to improved results.</li>
+                </ul>
+              </div>
+              
+        </div>
+        <p class="section">&nbsp;</p>
+
+<p class="section"><b>Short Talk</b></p>
+<!-- <div align = "center"> -->
+<centre>
+<!-- <iframe width="667" height="500" src="https://www.youtube.com/embed/M8JcMv7Rznw"> -->
+    <!-- <iframe width = "800" height="450" src="https://youtu.be/tu2q060WjXY"> -->
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/tu2q060WjXY?si=bFQXolXFlr6y9myw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe>
+</centre>
+<!-- </div> -->
+   <p class="section">&nbsp;</p>	    
+        <p class="section" id="paper"><b>Paper</b></p>
+        <table width="940" border="0">
+            <tbody>
+                <tr>
+                    <td height="100"><a href="./resources/report.pdf" target="_blank" rel="noopener noreferrer"><img
+                                src="./resources/paper_cover.png" alt="" width="140" height="167"></a></td>
+                    <td width="750">
+                        <p><b>Face Identification (Group ID: 10)</b><br>
+                            Singamsetti Manikanta Varshit, Atharva Kanad Deshpande, Dishit Sharma,  Vishesh Sachdeva, Jinang Nayneshbhai Shah, Harish, Kumar Ashish Aditya.<br />
+                            <!-- (* indicates equal contribution) <br> -->
+                            [<a href="./resources/report.pdf" target="_blank" rel="noopener noreferrer">report</a>]<br>
+                            <!-- [<a href="./resources/appendix.pdf" target="_blank" rel="noopener noreferrer">appendix</a>]</p> -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- <p class="section">&nbsp;</p> -->
+        <!-- <p class="section">&nbsp;</p> -->
+        <!-- <div class="papers-list">
+            <p class="section" id="related-paper"><b>View related works from our group</b></p>
+            <ul>
+                <li>
+                    <b>Query-guided Attention in Vision Transformers for Localizing Objects Using a Single Sketch</b> [<a href="https://anandmishra22.github.io/files/Tripathi-WACV24.pdf">paper</a>]<br>
+                    Authors: Aditay Tripathi, Anand Mishra, Anirban Chakraborty.<br>
+                    WACV 2024<br>
+                </li><br>
+                <li>
+                    <b>Multimodal Query-guided Object Localization</b> [<a href="https://rdcu.be/dpps6">paper</a>]<br>
+                    Authors: Aditay Tripathi, Rajath R. Dani, Anand Mishra, Anirban Chakraborty.<br>
+                    Multimedia Tools and Applications 2023<br>
+                </li><br>
+                <li>
+                    <b>Sketch-Guided Object Localization in Natural Images</b> [<a href="https://anandmishra22.github.io/files/TripathiECCV2020.pdf">paper</a>]<br>
+                    Authors: Aditay Tripathi, Rajath R Dani, Anand Mishra, Anirban Chakraborty.<br>
+                    ECCV 2020<br>
+                </li><br>
+                <li>
+                    <b>Deep Embedding using Bayesian Risk Minimization with Application to Sketch Recognition</b> [<a href="https://arxiv.org/abs/1812.02466">paper</a>]<br>
+                    Authors: Anand Mishra, Ajeet Kumar Singh.<br>
+                    ACCV 2018<br>
+                </li>
+            </ul>
+        </div> -->
+        <!-- <p class="section">&nbsp;</p> -->
+
+        <!-- <p class="section" id="bibtex"><b>Bibtex</b></p>
+        <table border="0">
+            <tbody>
+                <pre style=" display: block;
+  background: #eee;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  min-width: 100px;
+  border-radius: 20px;
+  ">
+
+    @InProceedings{cstbir2024aaai,
+        author    = {Gatti, Prajwal and Parikh, Kshitij Gopal and Paul, Dhriti Prasanna and Gupta, Manish and Mishra, Anand},
+        title     = {Composite Sketch+Text Queries for Retrieving Objects with Elusive Names and Complex Interactions},
+        booktitle = {AAAI},
+        year      = {2024},
+    }       
+			  </pre>
+</table> -->
+
+
+
+
+ <p class="section">&nbsp;</p>
+        <p class="section">&nbsp;</p>
+        <div class="team">
+            <p class="section" id="team"><b>Team</b></p>
+  <div class="row justify-content-center">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+        <div class="mainflip">
+              <div class="card">
+                 <div class="card-body text-center card-no-padding">
+                    <p><img class=" img-fluid" src="resources/smv.jpeg" alt="card image"></p>
+                    <h6 class="card-title">Singamsetti <br>Manikanta <br>Varshit <br> (B22AI038)</h5>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                         <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/varshit-manikanta-079b65255/">
+                         <i class="fa fa-linkedin"></i>
+                         </a>
+                      </li>
+                    </ul>
+                 </div>
+              </div>
+        </div>
+     </div>
+     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+        <div class="mainflip">
+              <div class="card">
+                 <div class="card-body text-center card-no-padding">
+                    <p><img class=" img-fluid" src="resources/akr.jpeg" alt="card image"></p>
+                    <h6 class="card-title">Atharva <br>Kanad <br>Deshpande <br> (B22EE013)</h5>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                         <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/a-k-r-deshpande-078bab252/">
+                         <i class="fa fa-linkedin"></i>
+                         </a>
+                      </li>
+                    </ul>
+                 </div>
+              </div>
+        </div>
+     </div>
+                  
+                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                    <div class="mainflip">
+                          <div class="card">
+                             <div class="card-body text-center card-no-padding">
+                                <p><img class=" img-fluid" src="resources/ds.jpeg" alt="card image"></p>
+                                <h6 class="card-title">Dishit <br>Sharma <br> (B22CS082)</h5>
+                                <ul class="list-inline">
+                                  <li class="list-inline-item">
+                                     <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/dishit-sharma-44b7a5265/">
+                                     <i class="fa fa-linkedin"></i>
+                                     </a>
+                                  </li>
+                                </ul>
+                             </div>
+                          </div>
+                    </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                    <div class="mainflip">
+                          <div class="card">
+                             <div class="card-body text-center card-no-padding">
+                                <p><img class=" img-fluid" src="resources/vs.png" alt="card image"></p>
+                                <h6 class="card-title">Vishesh <br>Sachdeva <br> (B22AI050)</h5>
+                                <ul class="list-inline">
+                                  <li class="list-inline-item">
+                                     <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/vishesh-sachdeva-89689a256/">
+                                     <i class="fa fa-linkedin"></i>
+                                     </a>
+                                  </li>
+                                  <!-- <li class="list-inline-item">
+                                     <a class="social-icon text-xs-center" target="_blank" href="https://prajwalgatti.github.io/">
+                                     <i class="fa fa-user"></i>
+                                     </a>
+                                  </li> -->
+                                </ul>
+                             </div>
+                          </div>
+                    </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                   <div class="mainflip">
+                         <div class="card">
+                            <div class="card-body text-center card-no-padding">
+                               <p><img class=" img-fluid" src="resources/jns.jpeg" alt="card image"></p>
+                               <h6 class="card-title">Jinang <br>Nayneshbhai <br>Shah <br> (B22CS027)</h5>
+                               <ul class="list-inline">
+                                 <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/jinang-shah-0ba968255/">
+                                    <i class="fa fa-linkedin"></i>
+                                    </a>
+                                 </li>
+                               </ul>
+                            </div>
+                         </div>
+                   </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                   <div class="mainflip">
+                         <div class="card">
+                            <div class="card-body text-center card-no-padding">
+                               <p><img class=" img-fluid" src="resources/hg.jpeg" alt="card image"></p>
+                               <h6 class="card-title">Harish <br> (B22EE029)</h5>
+                               <ul class="list-inline">
+                                 <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/harish-gehlot-9a8973255/">
+                                    <i class="fa fa-linkedin"></i>
+                                    </a>
+                                 </li>
+                               </ul>
+                            </div>
+                         </div>
+                   </div>
+                </div>
+                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                    <div class="mainflip">
+                          <div class="card">
+                             <div class="card-body text-center card-no-padding">
+                                <p><img class=" img-fluid" src="resources/kaa.jpeg" alt="card image"></p>
+                                <h6 class="card-title">Kumar <br>Ashish <br>Aditya <br> (B22EE042)</h5>
+                                <ul class="list-inline">
+                                  <li class="list-inline-item">
+                                     <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/kumar-ashish-aditya-4858a0258/">
+                                     <i class="fa fa-linkedin"></i>
+                                     </a>
+                                  </li>
+                                </ul>
+                             </div>
+                          </div>
+                    </div>
+                 </div>
+   
+
+
+
+     </div>
+        <p class="section">&nbsp;</p>
+
+ <p class="section">&nbsp;</p>
+        <p class="section">&nbsp;</p>
+        <div class="ack">
+            <p class="section" id="ack"><b>Acknowledgment</b></p>
+This project was done under the guidance of Prof. Dr. Anand Mishra of Department of Computer Science and Engineering (CSE), Indian Institute of Technology, Jodhpur.
+	</div>
+        <p class="section"></p>
+
+
+ <p class="section">&nbsp;</p>
+        <p class="section">&nbsp;</p>
+        <div class="contact">
+            <p class="section" id="related-paper"><b>Contact</b></p>
+            For questions, please contact <a href="https://www.linkedin.com/in/varshit-manikanta-079b65255/" target="_blank">Singamsetti Manikanta Varshit</a> or raise an issue on <a class="publink" href="https://github.com/legend4137/PRML_Project-Face_Recognition/issues" target="_blank" style="text-decoration: none">GitHub</a>.
+	</div>
+        <p class="section"></p>
+
+
+    <!-- Footer -->
+<footer>
+    <p class="m-0 text-center">Copyright &copy; IIT Jodhpur</p>
+</footer>   
+
+</body>
+
+ <script>
+    function prompt_on(prompt_element) {
+        prompt_element.classList.add("caption-active");
+    }
+
+    function prompt_off(prompt_element) {
+        prompt_element.classList.remove("caption-active");
+    }
+
+    function toggle_prompt(active_prompt_id, inactive_prompt_ids, result_id) {
+        let active_prompt = document.getElementById(active_prompt_id);
+        prompt_on(active_prompt);
+        for (let i = 0; i < inactive_prompt_ids.length; i++) {
+            let inactive_prompt = document.getElementById(inactive_prompt_ids[i]);
+            prompt_off(inactive_prompt);
+        }
+
+        let result = document.getElementById(result_id);
+        result.src = file_paths[active_prompt_id];
+    }
+ </script>
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
